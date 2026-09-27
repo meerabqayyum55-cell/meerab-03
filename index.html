@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172725">
+  <meta name="description" content="An interactive, editorial-style Web GIS exploring cities and illustrative weather station readings across Pakistan.">
+  <title>Pakistan in Bloom | Interactive Web GIS</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Pakistan in Bloom home"><span class="brand-mark">✳</span> Fieldnotes <span class="brand-divider">/</span> Pakistan</a>
+      <nav class="top-nav" aria-label="Page navigation"><a href="#explore">Explore</a><a href="#about">About this map</a><a class="nav-chip" href="#student">MEERAB QAYYUM · FA23-BRG-076</a></nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> AN INTERACTIVE FIELD ATLAS</p>
+          <h1 id="hero-title">Pakistan,<br><em>in bloom.</em></h1>
+          <p class="hero-copy">A living map of cities and skies, tracing a country through the places that make it.</p>
+          <a class="explore-link" href="#explore"><span>Explore the map</span><span class="arrow">↘</span></a>
+        </div>
+        <div class="hero-side-note"><span>33°41′ N</span><i></i><span>73°03′ E</span></div>
+        <div class="hero-caption">PAKISTAN · FIELDNOTES SERIES <span>01 / 04</span></div>
+      </section>
+
+      <section class="intro-band" id="about">
+        <div class="intro-label"><span class="tiny-flower">✳</span> A COUNTRY, LAYER BY LAYER</div>
+        <p>From the northern valleys to the Arabian Sea, explore <em>15 cities</em> and <em>15 weather stations</em> in one layered view.</p>
+        <div class="intro-counts"><div><strong>15</strong><span>CITIES</span></div><b>·</b><div><strong>15</strong><span>STATIONS</span></div></div>
+      </section>
+
+      <section class="map-section" id="explore">
+        <div class="section-heading">
+          <div><p class="eyebrow dark-eyebrow">THE INTERACTIVE ATLAS <span>—</span> 01</p><h2>Read the <em>landscape.</em></h2></div>
+          <p class="section-note">Choose a layer, change the view,<br>then select a marker for its story.</p>
+        </div>
+        <div class="map-meta"><div class="map-title"><span class="live-dot"></span> PAKISTAN <span class="meta-divider">/</span> CITIES & CLIMATE</div><div class="map-instructions">SCROLL TO ZOOM <span>·</span> DRAG TO MOVE</div></div>
+        <div class="map-frame"><div id="map" role="application" aria-label="Interactive map of Pakistan showing cities and weather stations"></div><div class="map-stamp" aria-hidden="true"><span>FIELD</span><strong>01</strong><span>NOTES</span></div></div>
+        <div class="map-footer"><div class="map-legend"><span><i class="legend-city"></i> City</span><span><i class="legend-weather">✳</i> Weather station</span></div><div class="map-source">SAMPLE STATION READINGS · NOT LIVE OBSERVATIONS</div></div>
+      </section>
+
+      <section class="bottom-note">
+        <div class="note-flower">✳</div><div><p class="eyebrow">A NOTE ON THE DATA</p><p>City locations and administrative labels are provided for learning. Weather values are illustrative sample readings for this lab, not current or official observations.</p></div><a href="#top" class="back-top">BACK TO TOP <span>↑</span></a>
+      </section>
+    </main>
+    <footer id="student"><span>FIELDNOTES / PAKISTAN</span><span>MEERAB QAYYUM · FA23-BRG-076</span><span>MET418 · LAB 03</span></footer>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "name": "Pakistan Weather Stations (Illustrative Sample Data)",
+  "features": [
+    {"type":"Feature","properties":{"station":"Islamabad","temperature":28,"rainfall":12},"geometry":{"type":"Point","coordinates":[73.09,33.72]}},
+    {"type":"Feature","properties":{"station":"Lahore","temperature":31,"rainfall":5},"geometry":{"type":"Point","coordinates":[74.40,31.55]}},
+    {"type":"Feature","properties":{"station":"Karachi","temperature":32,"rainfall":2},"geometry":{"type":"Point","coordinates":[67.05,24.89]}},
+    {"type":"Feature","properties":{"station":"Peshawar","temperature":30,"rainfall":4},"geometry":{"type":"Point","coordinates":[71.57,34.06]}},
+    {"type":"Feature","properties":{"station":"Quetta","temperature":24,"rainfall":1},"geometry":{"type":"Point","coordinates":[67.02,30.22]}},
+    {"type":"Feature","properties":{"station":"Multan","temperature":34,"rainfall":1},"geometry":{"type":"Point","coordinates":[71.57,30.20]}},
+    {"type":"Feature","properties":{"station":"Faisalabad","temperature":32,"rainfall":3},"geometry":{"type":"Point","coordinates":[73.18,31.49]}},
+    {"type":"Feature","properties":{"station":"Rawalpindi","temperature":29,"rainfall":10},"geometry":{"type":"Point","coordinates":[73.05,33.60]}},
+    {"type":"Feature","properties":{"station":"Hyderabad","temperature":33,"rainfall":2},"geometry":{"type":"Point","coordinates":[68.40,25.43]}},
+    {"type":"Feature","properties":{"station":"Sialkot","temperature":29,"rainfall":8},"geometry":{"type":"Point","coordinates":[74.58,32.53]}},
+    {"type":"Feature","properties":{"station":"Sukkur","temperature":35,"rainfall":1},"geometry":{"type":"Point","coordinates":[68.90,27.74]}},
+    {"type":"Feature","properties":{"station":"Gilgit","temperature":19,"rainfall":3},"geometry":{"type":"Point","coordinates":[74.35,35.96]}},
+    {"type":"Feature","properties":{"station":"Muzaffarabad","temperature":25,"rainfall":11},"geometry":{"type":"Point","coordinates":[73.51,34.41]}},
+    {"type":"Feature","properties":{"station":"Gwadar","temperature":30,"rainfall":0},"geometry":{"type":"Point","coordinates":[62.36,25.17]}},
+    {"type":"Feature","properties":{"station":"Bahawalpur","temperature":34,"rainfall":1},"geometry":{"type":"Point","coordinates":[71.73,29.43]}}
+  ]
+}
